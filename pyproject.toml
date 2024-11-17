@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "travel-pinboard"
+version = "0.1.0"
+description = "make a travel pinboard"
+authors = ["atloo1 <15357562+atloo1@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+pre-commit = "^4.0.1"
+pytest = "^8.3.3"
+ruff = "^0.7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+lint.extend-select = ["I"]  # sort imports
+
+[tool.ruff.format]
+quote-style = "single"
