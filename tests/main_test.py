@@ -6,11 +6,13 @@ run with:
 poetry run pytest tests/main_test.py
 """
 
-import pytest
+from pytest import fail
 
 from travel_pinboard import main  # noqa: E999
 
 
 def test_main():
-    with pytest.raises(NotImplementedError):
+    try:
         main.main()
+    except Exception as e:
+        fail(e)
