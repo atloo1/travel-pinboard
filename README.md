@@ -4,7 +4,7 @@ make a travel pinboard
 ## prerequisites
 - [poetry](https://python-poetry.org/docs/#installing-with-pipx)
 - `./input/map.png` [downloaded](https://drive.google.com/drive/folders/1dQKogx8fkdZk7-pvOS2jz5OdCEysO1km) from the [8K-BAM project](https://www.alternatehistory.com/forum/threads/the-xk-bam-map-series.441440/)
-- `./input/pinboard.tsv` with fields `x`, `y`, & `0` where pins point at `(x,y)` with heading `0`
+- `./input/pinboard.tsv` with fields `x`, `y`, & `0` where pins point at `(x,y)` with heading `0`°
 
 ```
 git clone https://github.com/atloo1/travel-pinboard.git
