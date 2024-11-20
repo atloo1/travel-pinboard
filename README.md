@@ -31,7 +31,3 @@ poetry run pre-commit install
 `x`:  `=(longitude+180)*(8192/360)`
 
 `y`: `=(90-latitude)*(4096/180)`
-### test locally (preemptively pass the corresponding GitHub action)
-```
-poetry run pytest
-```
