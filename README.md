@@ -1,4 +1,17 @@
 # travel-pinboard
+
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/atloo1/travel-pinboard/ci.yaml)](https://github.com/atloo1/travel-pinboard/actions/workflows/ci.yaml?query=branch%3Amain)
+[![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fatloo1%2Ftravel-pinboard%2Frefs%2Fheads%2Fmain%2Fpyproject.toml&query=%24.tool.poetry.dependencies.python&label=python)](https://github.com/atloo1/travel-pinboard/blob/main/pyproject.toml)
+[![Dynamic TOML Badge](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fatloo1%2Ftravel-pinboard%2Frefs%2Fheads%2Fmain%2Fpyproject.toml&query=%24.tool.poetry.version&label=version)](https://github.com/atloo1/travel-pinboard/blob/main/pyproject.toml)
+[![GitHub License](https://img.shields.io/github/license/atloo1/travel-pinboard)](https://github.com/atloo1/travel-pinboard/blob/main/LICENSE)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/atloo1/travel-pinboard)
+
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
+[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
 make a travel pinboard
 
 ## prerequisites
