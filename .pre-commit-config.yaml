@@ -78,6 +78,6 @@ repos:
       - id: mdformat
 
   - repo: https://github.com/atloo1/check-pyproject-incremented/
-    rev: b496bc8a2f60c2d254a963a6b6c4948f497b5e5a
+    rev: 8903352b08225c69a907761ef9a8c24777d7016e
     hooks:
       - id: check-pyproject-incremented
