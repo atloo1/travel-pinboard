@@ -12,7 +12,9 @@
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-make a travel pinboard
+make a travel pinboard, such as:
+
+<img src="https://github.com/user-attachments/assets/290d979a-a49c-4065-a21a-39e3836b7752" alt="image" width="500">
 
 ## prerequisites
 
