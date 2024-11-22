@@ -20,7 +20,7 @@ repos:
     hooks:
       - id: pyupgrade
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.7.4
+    rev: v0.8.0
     hooks:
       - id: ruff
         types_or:
@@ -61,6 +61,6 @@ repos:
       - id: sort-simple-yaml
       - id: trailing-whitespace
   - repo: https://github.com/atloo1/check-pyproject-incremented/
-    rev: 19801ddf2fe2b13747a5c1879f4d17ad7b7e7bd5
+    rev: b496bc8a2f60c2d254a963a6b6c4948f497b5e5a
     hooks:
       - id: check-pyproject-incremented
